@@ -20,7 +20,7 @@ function partition (arr, low, up){
             end--
         }
         if(start < end){
-            [a[start], a[end]] = [a[start], a[end]]
+            [arr[start], arr[end]] = [arr[start], arr[end]]
         }
     }
     [arr[low], arr[end]] = [arr[end], arr[low]]
