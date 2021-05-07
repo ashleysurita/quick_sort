@@ -1,4 +1,4 @@
-var quickSort = function(nums, low = 0, up = nums.length - 1 ) {
+function quickSort(nums, low = 0, up = nums.length - 1 ) {
     if(low < up){
         let loc = partition(nums, low, up)
         quickSort(nums, low, loc - 1)
